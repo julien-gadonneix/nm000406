@@ -7,7 +7,9 @@
   "Acknowledgements": "Data release: Zenodo record 7352058 (creators: Alfredo Rosado-Muñoz, Juan Francisco Guerrero-Martínez, Antonio Gutierrez Martín). BIDS conversion: ieeg-nemar-20261005 campaign (batch-3, lane W2); no signal processing applied.",
   "HowToAcknowledge": "Please cite the data record: Rosado-Muñoz A, Guerrero-Martínez JF, Gutierrez Martín A (2022). Microelectrode register (MER) data from Deep Brain Stimulation (DBS) surgery in Parkinson's disease patients. Zenodo. doi:10.5281/zenodo.7352058. Related article: Tepper Á, Henrich MC, Schiaffino L, Rosado Muñoz A, Gutiérrez A, Guerrero Martínez J (2017). Selection of the Optimal Algorithm for Real-Time Estimation of Beta Band Power during DBS Surgeries in Patients with Parkinson's Disease. Computational Intelligence and Neuroscience 2017:1512504. doi:10.1155/2017/1512504.",
   "Funding": [],
-  "EthicsApprovals": [],
+  "EthicsApprovals": [
+    "Ethical Committee for Biomedical Research of La Fe Hospital (Valencia, Spain), registration number 2015/0824 (approved 17 May 2016). Patients signed an informed consent for DBS surgery with microelectrode recording. Source: Martin Bellino et al. (2019), Entropy 21:346, doi:10.3390/e21040346."
+  ],
   "ReferencesAndLinks": ["https://doi.org/10.5281/zenodo.7352058", "https://doi.org/10.1155/2017/1512504"],
   "DatasetDOI": "doi:10.5281/zenodo.7352058",
   "Keywords": ["microelectrode recording", "MER", "deep brain stimulation", "DBS", "subthalamic nucleus", "STN", "Parkinson's disease", "intraoperative"],
