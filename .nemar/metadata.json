@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Microelectrode recordings (MER) from deep brain stimulation surgery in Parkinson's disease (STN targeting, 14 patients)",
-  "description": "Intraoperative microelectrode recordings (MER) from 14 patients with Parkinson's disease undergoing stereotactic deep brain stimulation (DBS) surgery targeting the subthalamic nucleus. Up to three channels were recorded at successive depths, with each depth labelled as inside (STN-IN) or outside (STN-OUT) the nucleus by neurophysiologists and surgeons. Left and right trajectories are included. The data are unfiltered and were re-packaged losslessly into iEEG-BIDS from a public Zenodo release.",
-  "methods_description": "Recordings were obtained during DBS surgery with the data files stored per depth, with up to three channels each. The release provides raw int16 signals with no filtering or processing. They were converted to BrainVision float32 files with BIDS sidecars, with no resampling or re-referencing. A related article describes MicroGuide (Alpha Omega) acquisition with tungsten microelectrodes, 200-6000 Hz band-pass and 12 kHz sampling.",
+  "description": "Intraoperative microelectrode recordings (MER) from 14 patients with Parkinson's disease undergoing stereotactic implantation of deep brain stimulation electrodes in the subthalamic nucleus. Each file covers one recording depth with up to three channels and carries a classification as inside or outside the STN. The data are a lossless iEEG-BIDS re-packaging of a public Zenodo release, with no filtering or other signal processing applied.",
+  "methods_description": "Recordings were acquired at La Fe Hospital (Valencia, Spain) during DBS surgery, at a sampling rate of about 12 kHz with up to three channels per depth. The original MATLAB int16 arrays were converted without filtering, resampling or re-referencing to BrainVision float32 files with BIDS sidecars. Shorter channels are NaN-padded at the end.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -71,6 +71,11 @@
       "identifier": "https://nemar.org/dataset/nm000406",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.3390/e21040346",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_general": "Dataset",
@@ -91,5 +96,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "1c96aeabf322384b5378836f26e889572fa9246b19691e813c6d51d4f6209924"
+  "source_hash": "323d1f67aed059a021b1cd9a45d0dd448c0f8e43a72e88d3a5b34d2cc491c3c9"
 }
