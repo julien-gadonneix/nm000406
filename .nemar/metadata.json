@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Microelectrode recordings (MER) from deep brain stimulation surgery in Parkinson's disease (STN targeting, 14 patients)",
+  "description": "Intraoperative microelectrode recordings (MER) from 14 patients with Parkinson's disease undergoing stereotactic deep brain stimulation (DBS) surgery targeting the subthalamic nucleus. Up to three channels were recorded at successive depths, with each depth labelled as inside (STN-IN) or outside (STN-OUT) the nucleus by neurophysiologists and surgeons. Left and right trajectories are included. The data are unfiltered and were re-packaged losslessly into iEEG-BIDS from a public Zenodo release.",
+  "methods_description": "Recordings were obtained during DBS surgery with the data files stored per depth, with up to three channels each. The release provides raw int16 signals with no filtering or processing. They were converted to BrainVision float32 files with BIDS sidecars, with no resampling or re-referencing. A related article describes MicroGuide (Alpha Omega) acquisition with tungsten microelectrodes, 200-6000 Hz band-pass and 12 kHz sampling.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Alfredo Rosado-Muñoz": {
       "orcid": "0000-0002-0429-0573",
@@ -20,6 +25,32 @@
     },
     "Antonio Gutierrez Martín": {}
   },
+  "keywords": [
+    {
+      "term": "Microelectrode recording"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
+      "term": "intraoperative recording"
+    },
+    {
+      "term": "iEEG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.7352058",
@@ -42,14 +73,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
-  "title": "Microelectrode recordings (MER) from deep brain stimulation surgery in Parkinson's disease (STN targeting, 14 patients)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "15.19 GB (2488 files)"
   ],
@@ -60,33 +88,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Intraoperative microelectrode recordings (MER) from 14 patients with Parkinson's disease undergoing stereotactic deep brain stimulation (DBS) surgery targeting the subthalamic nucleus. Each file covers one recording depth with up to three channels, and depths are classified as inside (STN-IN) or outside (STN-OUT) the nucleus by neurophysiologists and surgeons. The data are an unfiltered, lossless iEEG-BIDS re-packaging of the authors' Zenodo release.",
-  "methods_description": "Recordings were acquired during DBS surgery with up to three microelectrode channels per depth file and no filtering or processing applied. Sampling rate was about 12 kHz, computed per run from the release time vector. The original MATLAB int16 arrays were converted losslessly to BrainVision float32 with BIDS sidecars.",
-  "keywords": [
-    {
-      "term": "microelectrode recording"
-    },
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "Deep Brain Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
-    },
-    {
-      "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
-      "term": "subthalamic nucleus"
-    },
-    {
-      "term": "intraoperative neurophysiology"
-    }
-  ],
-  "source_hash": "c7a87a570364c330f1d844f1ba1986101fbf0acbb511b5ab8e4b032539f47c0d"
+  "source_hash": "1c96aeabf322384b5378836f26e889572fa9246b19691e813c6d51d4f6209924"
 }
