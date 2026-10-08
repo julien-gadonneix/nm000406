@@ -1,0 +1,25 @@
+{
+  "hemisphere": {
+    "Description": "Side of the trajectory (release folder Left_lobe / Right_lobe)"
+  },
+  "stn_classification": {
+    "Description": "Classification of the recording depth by the neurophysiologists and surgeons (release folders STN_IN / STN_OUT)",
+    "Levels": {
+      "IN": "inside the subthalamic nucleus",
+      "OUT": "outside the subthalamic nucleus"
+    }
+  },
+  "source_depth_label": {
+    "Description": "Release file name (one file per depth). The release does not document the unit or origin of this label; runs are numbered in ascending order of it, per hemisphere."
+  },
+  "source_file": {
+    "Description": "Path of the source .mat inside the release data.zip (copy in sourcedata/)"
+  },
+  "n_samples": {
+    "Description": "Samples in the BrainVision file (= longest channel)"
+  },
+  "sampling_frequency": {
+    "Description": "Sampling frequency from the release time vector, (N-1)/time[-1]",
+    "Units": "Hz"
+  }
+}

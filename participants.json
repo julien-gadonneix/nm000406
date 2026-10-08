@@ -1,0 +1,24 @@
+{
+  "participant_id": {
+    "Description": "BIDS label = patient number of the release (P1-P14), zero-padded"
+  },
+  "source_id": {
+    "Description": "Patient label in the release (anonymised P1-P14)"
+  },
+  "age": {
+    "Description": "Not given per patient. Group: 65.1 +/- 5.6 years (release description)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not given per patient. Group: 9 males, 5 females (release description)"
+  },
+  "group": {
+    "Description": "Parkinson's disease patient undergoing DBS surgery (STN target)",
+    "Levels": {
+      "patient": "Parkinson's disease patient"
+    }
+  },
+  "hemispheres_recorded": {
+    "Description": "Trajectories present in the release (release: 8 patients left and right, 1 patient right only, 5 patients left only)"
+  }
+}

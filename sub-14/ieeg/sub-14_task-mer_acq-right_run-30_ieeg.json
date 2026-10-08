@@ -1,0 +1,20 @@
+{
+  "TaskName": "mer",
+  "TaskDescription": "Intraoperative microelectrode recording (MER) at one depth position during stereotactic deep brain stimulation surgery targeting the subthalamic nucleus (STN) in Parkinson's disease.",
+  "InstitutionName": "n/a",
+  "SamplingFrequency": 12019.202703471075,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "iEEGReference": "n/a",
+  "iEEGPlacementScheme": "Microelectrode trajectory towards the right subthalamic nucleus during DBS surgery; this depth was classified outside the STN (STN-OUT) by the neurophysiologists and surgeons (release description).",
+  "SEEGChannelCount": 3,
+  "ECOGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 35.53779818328928,
+  "RecordingDescription": "Release file data/Right_lobe/Right_lobe_STN_OUT/P14R_STN_OUT/06001.mat; depth label (file name) 06001; STN-OUT. Channel lengths in samples: [427136, 427136, 427136].",
+  "ElectricalStimulation": false
+}

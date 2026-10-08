@@ -1,0 +1,5 @@
+{
+  "units": {"Description": "Physical unit. The release stores int16 values without a scale factor to volts; written as n/a (BrainVision header: 'unscaled')."},
+  "type": {"Description": "SEEG is used for the intraoperative microelectrode channels (stereotactic depth recordings); BIDS has no microelectrode-specific type."},
+  "source_n_samples": {"Description": "Number of samples of this channel in the release file. Channels of one file can differ in length; samples after source_n_samples are NaN in the BrainVision file."}
+}

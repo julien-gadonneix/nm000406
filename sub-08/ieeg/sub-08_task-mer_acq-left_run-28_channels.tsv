@@ -1,0 +1,4 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	source_n_samples
+Electrode1	SEEG	n/a	n/a	n/a	12019.2155916173	good	n/a	788096
+Electrode2	SEEG	n/a	n/a	n/a	12019.2155916173	good	n/a	787344
+Electrode3	SEEG	n/a	n/a	n/a	12019.2155916173	good	n/a	787344
