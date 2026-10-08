@@ -47,3 +47,15 @@ and all data are unchanged, and the provenance JSON gives the SHA-256 of each fi
 ## License
 
 CC-BY-4.0
+
+## Ethics
+
+The recordings in this dataset are covered by the Ethical Committee for Biomedical Research of La Fe Hospital (Valencia, Spain), registration number 2015/0824, approved 17 May 2016. Patients signed an informed consent for DBS surgery with microelectrode recording (MER).
+
+Statement from Bellino et al. (2019), section 2.1 "Database" (verbatim), describing MER from DBS surgery at La Fe Hospital by the same group (J. Guerrero, A. Rosado-Muñoz):
+
+> All of the patients met medical accepted selection criteria and signed an informed consent for DBS surgery with MER. These investigations that use human data were carried out following the rules of the Declaration of Helsinki. The Ethical Committee for Biomedical Research of La Fe Hospital approved the research procedures for the project with registration number 2015/0824 in May 17, 2016.
+
+Bellino GM, Schiaffino L, Battisti M, Guerrero J, Rosado-Muñoz A (2019). Optimization of the KNN Supervised Classification Algorithm as a Support Tool for the Implantation of Deep Brain Stimulators in Patients with Parkinson's Disease. Entropy 21(4):346. https://doi.org/10.3390/e21040346 (PMC7514830).
+
+The Zenodo record 7352058 itself contains no ethics statement. Coverage of the recordings in this release by La Fe approval 2015/0824 is attested by the depositor (Bruno Aristimunha, 2026-10-08).

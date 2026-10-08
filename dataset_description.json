@@ -3,16 +3,44 @@
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
-  "Authors": ["Alfredo Rosado-Muñoz", "Juan Francisco Guerrero-Martínez", "Antonio Gutierrez Martín"],
+  "Authors": [
+    "Alfredo Rosado-Muñoz",
+    "Juan Francisco Guerrero-Martínez",
+    "Antonio Gutierrez Martín"
+  ],
   "Acknowledgements": "Data release: Zenodo record 7352058 (creators: Alfredo Rosado-Muñoz, Juan Francisco Guerrero-Martínez, Antonio Gutierrez Martín). BIDS conversion: ieeg-nemar-20261005 campaign (batch-3, lane W2); no signal processing applied.",
   "HowToAcknowledge": "Please cite the data record: Rosado-Muñoz A, Guerrero-Martínez JF, Gutierrez Martín A (2022). Microelectrode register (MER) data from Deep Brain Stimulation (DBS) surgery in Parkinson's disease patients. Zenodo. doi:10.5281/zenodo.7352058. Related article: Tepper Á, Henrich MC, Schiaffino L, Rosado Muñoz A, Gutiérrez A, Guerrero Martínez J (2017). Selection of the Optimal Algorithm for Real-Time Estimation of Beta Band Power during DBS Surgeries in Patients with Parkinson's Disease. Computational Intelligence and Neuroscience 2017:1512504. doi:10.1155/2017/1512504.",
   "Funding": [],
   "EthicsApprovals": [
-    "Ethical Committee for Biomedical Research of La Fe Hospital (Valencia, Spain), registration number 2015/0824 (approved 17 May 2016). Patients signed an informed consent for DBS surgery with microelectrode recording. Source: Martin Bellino et al. (2019), Entropy 21:346, doi:10.3390/e21040346."
+    "Ethical Committee for Biomedical Research of La Fe Hospital (Valencia, Spain), registration number 2015/0824, approved 17 May 2016; patients signed an informed consent for DBS surgery with microelectrode recording (MER). Quoted from Bellino et al. 2019, Entropy 21(4):346, doi:10.3390/e21040346: \"All of the patients met medical accepted selection criteria and signed an informed consent for DBS surgery with MER. These investigations that use human data were carried out following the rules of the Declaration of Helsinki. The Ethical Committee for Biomedical Research of La Fe Hospital approved the research procedures for the project with registration number 2015/0824 in May 17, 2016.\" Coverage of the recordings in this release by this approval is attested by the depositor (Bruno Aristimunha, 2026-10-08)."
   ],
-  "ReferencesAndLinks": ["https://doi.org/10.5281/zenodo.7352058", "https://doi.org/10.1155/2017/1512504"],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.7352058",
+    "https://doi.org/10.1155/2017/1512504"
+  ],
   "DatasetDOI": "doi:10.5281/zenodo.7352058",
-  "Keywords": ["microelectrode recording", "MER", "deep brain stimulation", "DBS", "subthalamic nucleus", "STN", "Parkinson's disease", "intraoperative"],
-  "SourceDatasets": [{"DOI": "doi:10.5281/zenodo.7352058", "URL": "https://zenodo.org/records/7352058", "Version": "Zenodo record 7352058 (published 2022-11-23)"}],
-  "GeneratedBy": [{"Name": "b3w2_convert_c-mer.py", "Description": "Lossless re-packaging of the release MATLAB int16 arrays into BrainVision (float32) with BIDS sidecars; no filtering, resampling, re-referencing or channel removal. Shorter channels of a file are NaN-padded at the end.", "CodeURL": "n/a"}]
+  "Keywords": [
+    "microelectrode recording",
+    "MER",
+    "deep brain stimulation",
+    "DBS",
+    "subthalamic nucleus",
+    "STN",
+    "Parkinson's disease",
+    "intraoperative"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.7352058",
+      "URL": "https://zenodo.org/records/7352058",
+      "Version": "Zenodo record 7352058 (published 2022-11-23)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b3w2_convert_c-mer.py",
+      "Description": "Lossless re-packaging of the release MATLAB int16 arrays into BrainVision (float32) with BIDS sidecars; no filtering, resampling, re-referencing or channel removal. Shorter channels of a file are NaN-padded at the end.",
+      "CodeURL": "n/a"
+    }
+  ]
 }
