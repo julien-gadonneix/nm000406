@@ -18,7 +18,7 @@
     "https://doi.org/10.5281/zenodo.7352058",
     "https://doi.org/10.1155/2017/1512504"
   ],
-  "DatasetDOI": "doi:10.5281/zenodo.7352058",
+  "DatasetDOI": "10.82901/nemar.nm000406",
   "Keywords": [
     "microelectrode recording",
     "MER",
@@ -42,5 +42,6 @@
       "Description": "Lossless re-packaging of the release MATLAB int16 arrays into BrainVision (float32) with BIDS sidecars; no filtering, resampling, re-referencing or channel removal. Shorter channels of a file are NaN-padded at the end.",
       "CodeURL": "n/a"
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
