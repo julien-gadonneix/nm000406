@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000406-blue)](https://doi.org/10.82901/nemar.nm000406)
+
 # Microelectrode recordings (MER) from deep brain stimulation surgery in Parkinson's disease
 
 Intraoperative microelectrode recordings (MER) from **14 patients with Parkinson's disease** (9 male, 5 female;
