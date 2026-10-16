@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Microelectrode recordings (MER) from deep brain stimulation surgery in Parkinson's disease (STN targeting, 14 patients)",
-  "description": "Intraoperative microelectrode recordings (MER) from 14 patients with Parkinson's disease undergoing stereotactic implantation of deep brain stimulation electrodes in the subthalamic nucleus. Each depth along the left and/or right trajectory is stored as a separate run with up to three channels. Depths are classified as inside (STN-IN) or outside (STN-OUT) the nucleus. The data are repackaged in iEEG-BIDS from a public Zenodo release without filtering or other signal processing.",
-  "methods_description": "Recordings were obtained during DBS surgery at La Fe Hospital (Valencia, Spain) with a microelectrode acquisition system. Each depth yields one file with up to three channels of int16 data. The original MATLAB files were converted losslessly to BrainVision float32 with BIDS sidecars. No filtering, resampling or re-referencing was applied.",
+  "description": "Intraoperative microelectrode recordings (MER) from 14 patients with Parkinson's disease undergoing stereotactic deep brain stimulation (DBS) surgery targeting the subthalamic nucleus. Each file holds up to three channels recorded at a given depth, and depths are classified as inside (STN-IN) or outside (STN-OUT) the nucleus by neurophysiologists and surgeons. The data are unfiltered signals re-packaged in iEEG-BIDS from a public Zenodo release.",
+  "methods_description": "Recordings were acquired during DBS implantation surgery at La Fe Hospital (Valencia, Spain). Each depth produced one file with up to three channels of int16 data, sampled at about 12 kHz, with no filtering or processing applied. They were converted losslessly to BrainVision float32 format with BIDS sidecars.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -30,6 +30,9 @@
       "term": "microelectrode recording"
     },
     {
+      "term": "intracranial EEG"
+    },
+    {
       "term": "Deep Brain Stimulation",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
@@ -40,13 +43,12 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "subthalamic nucleus"
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
     },
     {
-      "term": "intraoperative"
-    },
-    {
-      "term": "iEEG"
+      "term": "intraoperative monitoring"
     }
   ],
   "related_identifiers": [
