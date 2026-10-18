@@ -1,3 +1,7 @@
+1.0.3 2026-10-18
+  - README: section 'NaN samples in the signal files' (166 of 590 scanned recordings hold NaN samples; data files unchanged); details in code/fix-20261018_nan_scan.json.
+  - dataset_description.json: Version 1.0.2 -> 1.0.3.
+
 1.0.2 2026-10-16
   - Restore the descriptive Name from v1.0.0 after the v1.0.1 naming regression.
 1.0.0 2026-10-08

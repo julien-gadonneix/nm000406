@@ -61,3 +61,11 @@ Statement from Bellino et al. (2019), section 2.1 "Database" (verbatim), describ
 Bellino GM, Schiaffino L, Battisti M, Guerrero J, Rosado-Muñoz A (2019). Optimization of the KNN Supervised Classification Algorithm as a Support Tool for the Implantation of Deep Brain Stimulators in Patients with Parkinson's Disease. Entropy 21(4):346. https://doi.org/10.3390/e21040346 (PMC7514830).
 
 The Zenodo record 7352058 itself contains no ethics statement. Coverage of the recordings in this release by La Fe approval 2015/0824 is attested by the depositor (Bruno Aristimunha, 2026-10-08).
+
+## NaN samples in the signal files (checked 18 Oct 2026)
+
+Some signal files store NaN (not-a-number) samples. A scan of 590 of the 830 recordings (whole files read with MNE on 18 Oct 2026; the 240 largest were not scanned) found them in 166 recordings. Both MNE-BIDS and EEGDash load these files; `get_data()` returns the NaN values.
+
+In 166 recordings channels are NaN only in part of the recording (166 spans at the end; median 0.13% of the samples; channels most often affected: Electrode2 (114), Electrode3 (87), Electrode1 (80)). Examples: `sub-01_task-mer_acq-left_run-01_ieeg.vhdr` Electrode2, Electrode3 samples 493312-494816; `sub-01_task-mer_acq-left_run-02_ieeg.vhdr` Electrode1, Electrode3 samples 502336-503840; `sub-01_task-mer_acq-left_run-03_ieeg.vhdr` Electrode2, Electrode3 samples 512112-512864; `sub-01_task-mer_acq-left_run-04_ieeg.vhdr` Electrode1 samples 488048-489552; `sub-01_task-mer_acq-left_run-08_ieeg.vhdr` Electrode3 samples 512864-513616. These samples cannot be restored from the release; crop them or replace them (e.g. `numpy.nan_to_num`, interpolation) before filtering. The data files are unchanged.
+
+Per-recording details (channels, NaN sample spans): `code/fix-20261018_nan_scan.json`.
